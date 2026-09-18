@@ -1,0 +1,17 @@
+# 20M 基座（lab03 用，CS336 Assignment 1 CPU 档配置）
+
+[model]
+num_layers = 4
+num_heads = 16
+d_model = 512
+d_ff = 1344
+context_length = 256
+vocab_size = 10000
+rope_theta = 10000.0
+
+# 后训练（lab05-06 用）
+[posttrain]
+base_model = "Qwen/Qwen2.5-0.5B"
+lora_rank = 16
+lora_alpha = 32
+max_seq_len = 512

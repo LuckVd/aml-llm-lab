@@ -1,0 +1,22 @@
+[project]
+name = "aml-llm-lab"
+version = "0.1.0"
+description = "0-cost, CPU-first LLM 全链路学习脚手架（CS336 规模 + 唐杰 AML 课程内容映射）"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "regex",
+    "pytest",
+    "tqdm",
+]
+
+# lab05/06/08（Qwen2.5-0.5B 后训练线）需要时再装：
+#   uv add torch --index https://download.pytorch.org/whl/cpu
+#   uv add transformers peft trl datasets accelerate
+# lab01-04（20M 线）也需要 torch-cpu，随 lab02 一起引入，保持 lab01 极简。
+
+[tool.pytest.ini_options]
+testpaths = ["labs"]
+
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"

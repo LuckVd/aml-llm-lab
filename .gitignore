@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+data/raw/
+models/
+uv.lock
+.pytest_cache/
+PLAN.md
