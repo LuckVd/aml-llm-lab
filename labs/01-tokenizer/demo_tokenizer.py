@@ -9,7 +9,11 @@ import time
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from bpe import Tokenizer, train_bpe  # noqa: E402
+# AML_LAB_USE_SOLUTION=1（make verify）时演示参考答案，否则演示你自己的实现
+if os.environ.get("AML_LAB_USE_SOLUTION") == "1":
+    from solution.bpe_solution import Tokenizer, train_bpe  # noqa: E402
+else:
+    from bpe import Tokenizer, train_bpe  # noqa: E402
 
 LAB = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(LAB, "..", "..", "data", "sample", "tinystories_sample.txt")

@@ -18,7 +18,14 @@ def _load(name, path):
 
 
 sys.path.insert(0, LAB_DIR)
-bpe = _load("student_bpe", os.path.join(LAB_DIR, "bpe.py"))
+# 出题人自检：AML_LAB_USE_SOLUTION=1 时直接对参考答案跑测试（make verify）。
+# 学员正常跑（make test / make lab1）时测的是你自己的 bpe.py。
+STUDENT_PATH = (
+    SOLUTION_PATH
+    if os.environ.get("AML_LAB_USE_SOLUTION") == "1"
+    else os.path.join(LAB_DIR, "bpe.py")
+)
+bpe = _load("student_bpe", STUDENT_PATH)
 solution = _load("solution_bpe", SOLUTION_PATH)
 
 DATA = os.path.join(LAB_DIR, "..", "..", "data", "sample", "tinystories_sample.txt")

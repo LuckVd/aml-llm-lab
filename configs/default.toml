@@ -6,8 +6,33 @@ num_heads = 16
 d_model = 512
 d_ff = 1344
 context_length = 256
-vocab_size = 10000
+vocab_size = 10000      # tokenizer 目标词表大小（语料不足时实际词表会小于此值，建模型时自动收缩）
 rope_theta = 10000.0
+
+# 数据（lab03 用）
+# 默认在 1.6MB 内置切片上训练（离线可跑，~2h CPU）；
+# 下载全量后把 train 改成 "data/raw/TinyStories-train.txt" 即可，其余超参不变。
+[data]
+train = "data/sample/tinystories_sample.txt"
+val = "data/sample/tinystories_sample.txt"   # 切片太小不单独切 val；换全量时可改成 valid 文件
+special_tokens = ["<|endoftext|>"]
+tokenizer_train_bytes = 1_600_000  # tokenizer 只在语料切片上训练（词表统计早已饱和，纯 Python BPE 训练全量太慢）
+
+# 预训练超参（唯一标准配置，不设快速档；调试用 tests / demo 里的极小切片）
+[train]
+steps = 2000
+batch_size = 32
+seq_len = 256
+lr = 6e-4
+warmup_steps = 100
+min_lr_ratio = 0.1
+weight_decay = 0.01
+beta2 = 0.95
+grad_clip = 1.0
+eval_every = 50
+eval_iters = 20
+ckpt_every = 500
+seed = 0
 
 # 后训练（lab05-06 用）
 [posttrain]

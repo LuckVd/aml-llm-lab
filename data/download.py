@@ -3,6 +3,7 @@
 默认走 hf-mirror.com（国内直连）。用法：
     uv run python data/download.py tinystories   # TinyStories 全量 valid+train (~2GB)
     uv run python data/download.py qwen05b       # Qwen2.5-0.5B 权重 (~1GB)
+    uv run python data/download.py alpaca        # Alpaca 52k SFT 指令数据 (~30MB)
     uv run python data/download.py all
 """
 
@@ -26,11 +27,15 @@ TARGETS = {
         "Qwen/Qwen2.5-0.5B/resolve/main/merges.txt",
         "Qwen/Qwen2.5-0.5B/resolve/main/generation_config.json",
     ],
+    "alpaca": [
+        "datasets/tatsu-lab/alpaca/resolve/main/alpaca_data.json",
+    ],
 }
 
 DEST = {
     "tinystories": "data/raw/",
     "qwen05b": "models/qwen2.5-0.5b/",
+    "alpaca": "data/raw/",
 }
 
 

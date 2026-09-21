@@ -1,0 +1,62 @@
+{"instruction": "把下面的句子翻译成英文：猫在垫子上。", "output": "The cat is on the mat."}
+{"instruction": "把下面的句子翻译成中文：The sun rises in the east.", "output": "太阳从东方升起。"}
+{"instruction": "把下面的句子翻译成英文：我喜欢读书。", "output": "I like reading books."}
+{"instruction": "把下面的句子翻译成中文：Where there is a will, there is a way.", "output": "有志者事竟成。"}
+{"instruction": "计算：3 + 4 = ?", "output": "3 + 4 = 7"}
+{"instruction": "计算：12 - 5 = ?", "output": "12 - 5 = 7"}
+{"instruction": "计算：6 × 7 = ?", "output": "6 × 7 = 42"}
+{"instruction": "计算：81 ÷ 9 = ?", "output": "81 ÷ 9 = 9"}
+{"instruction": "计算：15 + 27 = ?", "output": "15 + 27 = 42"}
+{"instruction": "计算：100 - 64 = ?", "output": "100 - 64 = 36"}
+{"instruction": "'happy' 的反义词是什么？", "output": "sad"}
+{"instruction": "'big' 的反义词是什么？", "output": "small"}
+{"instruction": "'热' 的反义词是什么？", "output": "冷"}
+{"instruction": "'明亮' 的反义词是什么？", "output": "黑暗"}
+{"instruction": "猫是动物吗？", "output": "是，猫是哺乳动物。"}
+{"instruction": "企鹅会飞吗？", "output": "不会，企鹅是不会飞的鸟类。"}
+{"instruction": "水的化学式是什么？", "output": "H2O"}
+{"instruction": "地球绕太阳一圈需要多久？", "output": "约一年（365.25 天）。"}
+{"instruction": "一年有几个季节？分别是什么？", "output": "四个：春、夏、秋、冬。"}
+{"instruction": "蜜蜂吃什么？", "output": "花蜜和花粉。"}
+{"instruction": "把这句话改成礼貌用语：把水给我。", "output": "请帮我拿一下水，谢谢。"}
+{"instruction": "把这句话改成礼貌用语：让开。", "output": "不好意思，请让一让。"}
+{"instruction": "改正错别字：我今天很高星。", "output": "我今天很高兴。"}
+{"instruction": "改正错别字：他明天要去北京看法朋友。", "output": "他明天要去北京看访朋友。"}
+{"instruction": "下面这个词是褒义还是贬义：勇敢", "output": "褒义"}
+{"instruction": "下面这个词是褒义还是贬义：狡猾", "output": "贬义"}
+{"instruction": "下面这个词是褒义还是贬义：认真", "output": "褒义"}
+{"instruction": "下面这个词是褒义还是贬义：懒惰", "output": "贬义"}
+{"instruction": "总结这句话的主语：小明在公园里放风筝。", "output": "小明"}
+{"instruction": "总结这句话的动词：小鸟在天上飞。", "output": "飞"}
+{"instruction": "'苹果'属于哪一类：水果还是蔬菜？", "output": "水果"}
+{"instruction": "'胡萝卜'属于哪一类：水果还是蔬菜？", "output": "蔬菜"}
+{"instruction": "1, 3, 5, 7, 下一个数是？", "output": "9"}
+{"instruction": "2, 4, 8, 16, 下一个数是？", "output": "32"}
+{"instruction": "1, 1, 2, 3, 5, 下一个数是？", "output": "8"}
+{"instruction": "周一之后是星期几？", "output": "星期二"}
+{"instruction": "用'因为……所以……'造句。", "output": "因为下雨了，所以我带了伞。"}
+{"instruction": "用'不仅……而且……'造句。", "output": "他不仅学习好，而且爱运动。"}
+{"instruction": "hello 的中文意思是什么？", "output": "你好"}
+{"instruction": "'再见' 的英文是什么？", "output": "goodbye"}
+{"instruction": "写出 'good morning' 的中文意思。", "output": "早上好"}
+{"instruction": "帮我写一句春节祝福。", "output": "祝您新春快乐，万事如意！"}
+{"instruction": "帮我写一句生日祝福。", "output": "祝你生日快乐，心想事成！"}
+{"instruction": "彩虹有几种颜色？", "output": "七种：红橙黄绿蓝靛紫。"}
+{"instruction": "中华人民共和国的首都是哪里？", "output": "北京"}
+{"instruction": "世界上最高的山是什么？", "output": "珠穆朗玛峰。"}
+{"instruction": "一打是多少个？", "output": "12 个"}
+{"instruction": "一小时有多少分钟？", "output": "60 分钟"}
+{"instruction": "三角形内角和是多少度？", "output": "180 度"}
+{"instruction": "正方形有几条边？", "output": "4 条"}
+{"instruction": "把'他跑得很快'改成比喻句。", "output": "他跑得像风一样快。"}
+{"instruction": "缩写句子：可爱的小鸟在茂密的森林里快乐地歌唱。", "output": "小鸟歌唱。"}
+{"instruction": "近义词：美丽", "output": "漂亮"}
+{"instruction": "近义词：迅速", "output": "快速"}
+{"instruction": "近义词：开始", "output": "起始"}
+{"instruction": "把主动句改被动句：他把作业写完了。", "output": "作业被他写完了。"}
+{"instruction": "冰箱是用来做什么的？", "output": "冷藏和保存食物。"}
+{"instruction": "下雨天出门要带什么？", "output": "雨伞或雨衣。"}
+{"instruction": "红灯停，绿灯行，黄灯呢？", "output": "黄灯亮时等待，不要抢行。"}
+{"instruction": "写一个表示开心的成语。", "output": "眉开眼笑"}
+{"instruction": "写一个表示着急的成语。", "output": "心急如焚"}
+{"instruction": "中国最长的河流是？", "output": "长江"}

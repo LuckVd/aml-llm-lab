@@ -2,7 +2,10 @@ __pycache__/
 *.pyc
 .venv/
 data/raw/
+data/cache/
+labs/*/cache/
 models/
+*.pt
 uv.lock
 .pytest_cache/
 PLAN.md

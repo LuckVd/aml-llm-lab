@@ -7,16 +7,30 @@ dependencies = [
     "numpy",
     "regex",
     "pytest",
-    "tqdm",
+    "torch>=2.14.0",          # lab02 起需要（pytorch cpu 源，见下方 index 配置）
+    "tomli>=2.4.1 ; python_full_version < '3.11'",  # lab03 读 configs 用
 ]
 
-# lab05/06/08（Qwen2.5-0.5B 后训练线）需要时再装：
-#   uv add torch --index https://download.pytorch.org/whl/cpu
-#   uv add transformers peft trl datasets accelerate
-# lab01-04（20M 线）也需要 torch-cpu，随 lab02 一起引入，保持 lab01 极简。
+# lab05/06/08（Qwen 后训练线）额外依赖：uv sync --group posttrain
+# 真模型权重/数据先跑 data/download.py（hf-mirror 镜像）
 
 [tool.pytest.ini_options]
 testpaths = ["labs"]
 
 [tool.uv]
 index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+# torch 走 pytorch 官方 cpu 源（体积只有 pypi 大轮子的 1/4），其余包仍走清华源
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[dependency-groups]
+posttrain = [
+    "peft>=0.21.0",
+    "transformers<5",
+]

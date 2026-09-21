@@ -1,0 +1,24 @@
+{"instruction": "计算：3 + 4 = ?", "chosen": "3 + 4 = 7", "rejected": "3 + 4 = 34"}
+{"instruction": "计算：12 - 5 = ?", "chosen": "12 - 5 = 7", "rejected": "12 - 5 = 8"}
+{"instruction": "计算：6 × 7 = ?", "chosen": "6 × 7 = 42", "rejected": "6 × 7 = 13"}
+{"instruction": "计算：81 ÷ 9 = ?", "chosen": "81 ÷ 9 = 9", "rejected": "81 ÷ 9 = 90"}
+{"instruction": "水的化学式是什么？", "chosen": "H2O", "rejected": "CO2"}
+{"instruction": "中华人民共和国的首都是哪里？", "chosen": "北京", "rejected": "上海"}
+{"instruction": "世界上最高的山是什么？", "chosen": "珠穆朗玛峰。", "rejected": "阿尔卑斯山。"}
+{"instruction": "一年有几个季节？分别是什么？", "chosen": "四个：春、夏、秋、冬。", "rejected": "两个：夏天和冬天。"}
+{"instruction": "'苹果'属于哪一类：水果还是蔬菜？", "chosen": "水果", "rejected": "蔬菜"}
+{"instruction": "三角形内角和是多少度？", "chosen": "180 度", "rejected": "360 度"}
+{"instruction": "彩虹有几种颜色？", "chosen": "七种：红橙黄绿蓝靛紫。", "rejected": "五种：红黄绿蓝紫。"}
+{"instruction": "企鹅会飞吗？", "chosen": "不会，企鹅是不会飞的鸟类。", "rejected": "会，企鹅飞得很快。"}
+{"instruction": "红灯停，绿灯行，黄灯呢？", "chosen": "黄灯亮时等待，不要抢行。", "rejected": "黄灯的时候赶紧冲过去。"}
+{"instruction": "地球绕太阳一圈需要多久？", "chosen": "约一年（365.25 天）。", "rejected": "约一个月。"}
+{"instruction": "1, 3, 5, 7, 下一个数是？", "chosen": "9", "rejected": "8"}
+{"instruction": "2, 4, 8, 16, 下一个数是？", "chosen": "32", "rejected": "24"}
+{"instruction": "1, 1, 2, 3, 5, 下一个数是？", "chosen": "8", "rejected": "6"}
+{"instruction": "'happy' 的反义词是什么？", "chosen": "sad", "rejected": "glad"}
+{"instruction": "把下面的句子翻译成英文：猫在垫子上。", "chosen": "The cat is on the mat.", "rejected": "Cat on mat is the."}
+{"instruction": "把下面的句子翻译成中文：The sun rises in the east.", "chosen": "太阳从东方升起。", "rejected": "太阳升起在东边的太阳。"}
+{"instruction": "帮我写一句春节祝福。", "chosen": "祝您新春快乐，万事如意！", "rejected": "春节就是个普通日子，没什么好祝的。"}
+{"instruction": "帮我写一句生日祝福。", "chosen": "祝你生日快乐，心想事成！", "rejected": "祝你生日勉强还行。"}
+{"instruction": "用'因为……所以……'造句。", "chosen": "因为下雨了，所以我带了伞。", "rejected": "因为下雨了，所以我忘了带伞也很合理。"}
+{"instruction": "写一个表示开心的成语。", "chosen": "眉开眼笑", "rejected": "愁眉苦脸"}
